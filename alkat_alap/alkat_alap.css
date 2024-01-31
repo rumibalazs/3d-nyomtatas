@@ -45,11 +45,9 @@ span
 
 
 
-/* teszt content */
+/* teszt*/
 
-.tc
+.meret
 {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
-    border: 3px solid #034078;
+    width: 20%;
 }

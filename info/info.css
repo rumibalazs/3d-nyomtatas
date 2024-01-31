@@ -8,3 +8,21 @@
 {
     border: 3px solid #034078;
 }
+
+.more
+{
+    background-color: #034078;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.moreTxt
+{
+    display: none;
+}
+
+.text.showMore .moreTxt
+{
+    display: inline;
+}

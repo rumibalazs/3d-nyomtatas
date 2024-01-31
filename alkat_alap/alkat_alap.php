@@ -16,41 +16,85 @@
         </div>
         <div class="row text-center">
             <div class="col-sm-12 col-md-4 col-lg-4 pt-2 content">
-                <img class="categories" src="kepek/alkat_alap/motor.jpg" alt="Motorok" title="Motor">
+                <img class="categories" src="kepek/alkat_alap/motor/motor.jpg" alt="Motorok" title="Motor">
                 <div class="pt-2">
                     <span>Motorok</span>
-                    <button onclick="hideAndSeek()" class="HASB"><i class="material-icons"
-                            id="more">&#xe313;</i></button>
+                    <button class="HASB"><i class="material-icons">&#xe313;</i></button><!--&#xe316; felfele nyil-->
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 content">
-                <img class="categories" src="kepek/alkat_alap/fuvoka.jpg" alt="Fúvókák" title="Fúvóka">
-                <div>
-                    Fúvókák
-                    <button><i class="material-icons" id="more">&#xe313;</i></button> <!--le-->
-                    <button><i class="material-icons" id="less">&#xe316;</i></button> <!--fel-->
+            <div class="col-sm-12 col-md-4 col-lg-4 pt-2 content">
+                <img class="categories" src="kepek/alkat_alap/fuvoka/fuvoka.jpg" alt="Fúvókák" title="Fúvóka">
+                <div class="pt-2">
+                    <span>Fúvókák</span>
+                    <button class="HASB"><i class="material-icons">&#xe313;</i></button>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 content">
-                <img class="categories" src="kepek/alkat_alap/elektronika.jpg" alt="Elektronikák"
+            <div class="col-sm-12 col-md-4 col-lg-4 pt-2 content">
+                <img class="categories" src="kepek/alkat_alap/elektronika/elektronika.jpg" alt="Elektronikák"
                     title="Elektronika(kijelző)">
-                <div>
-                    Elektronikák
-                    <button><i class="material-icons" id="more">&#xe313;</i></button> <!--le-->
-                    <button><i class="material-icons" id="less">&#xe316;</i></button> <!--fel-->
+                <div class="pt-2">
+                    <span>Elektronikák</span>
+                    <button class="HASB"><i class="material-icons">&#xe313;</i></button>
                 </div>
             </div>
         </div>
-        <div class="row content" id="hideAndSeek">
-            <div class="col-sm-12 col-md-6 col-lg-6 text-center tc">
-                <img class="shop" src="kepek/alkat_alap/motor.jpg" alt="Léptetőmotor" title="Léptetőmotor">
+        <div class="row" id="hideAndSeekMot">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/motor/motor.jpg" alt="Léptetőmotor" title="Léptetőmotor" class="shop">
                 <h4>Léptetőmotor</h4>
                 <h4>40 mm hossz, 1.8° lépésszög</h4>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 text-center tc">
-                <img class="shop" src="kepek/alkat_alap/extruder.jpg" alt="Extrúder" title="Extruder">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/motor/extruder.jpg" alt="Extrúder" title="Extruder" class="shop">
                 <h4>NAMA 14 Extrúder</h4>
                 <h4>36 mm hossz, 0.9° lépésszög</h4>
+            </div>
+        </div>
+        <div class="row" id="hideAndSeekFuv">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/fuvoka/fuvoka_1.jpg" alt="Fúvóka fajta 1" title="Fúvóka" class="shop">
+                <h4>Sárgaréz fúvóka</h4>
+                <select name="rezfuvoka" id="rezfuvoka" class="form-select meret">
+                    <option selected disabled>Válasszon méretet!</option>
+                    <option value="0.1">0.1 mm</option>
+                    <option value="0.2">0.2 mm</option>
+                    <option value="0.3">0.3 mm</option>
+                    <option value="0.4">0.4 mm</option>
+                    <option value="0.5">0.5 mm</option>
+                    <option value="0.6">0.6 mm</option>
+                    <option value="0.7">0.7 mm</option>
+                    <option value="0.8">0.8 mm</option>
+                    <option value="0.9">0.9 mm</option>
+                    <option value="1.0">1.0 mm</option>
+                </select>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/fuvoka/fuvoka_2.jpg" alt="Fúvóka fajta 2" title="Fúvóka" class="shop">
+                <h4>Rozsdamentes acél fúvóka</h4>
+                <select name="rozsdafuvoka" id="rozsdafuvoka" class="form-select meret">
+                    <option selected disabled>Válasszon méretet!</option>
+                    <option value="0.1">0.1 mm</option>
+                    <option value="0.2">0.2 mm</option>
+                    <option value="0.3">0.3 mm</option>
+                    <option value="0.4">0.4 mm</option>
+                    <option value="0.5">0.5 mm</option>
+                    <option value="0.6">0.6 mm</option>
+                    <option value="0.7">0.7 mm</option>
+                    <option value="0.8">0.8 mm</option>
+                    <option value="0.9">0.9 mm</option>
+                    <option value="1.0">1.0 mm</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/elektronika/elektronika.jpg" alt="Kijelző elektronika" title="kijelző" class="shop">
+                <h4>RAMPS 1.4 kijelző</h4>
+                <h4>12864 LCD kijelző</h4>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center content">
+                <img src="kepek/alkat_alap/elektronika/motor_vezerlo.jpg" alt="Motor vezérlő elektronika" title="Motor vezérlő" class="shop">
+                <h4>A4988 léptetőmotor verérlő</h4>
             </div>
         </div>
     </div>
