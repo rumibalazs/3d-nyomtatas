@@ -73,7 +73,7 @@
                     beállítani.
                 </p>
             </div>
-            <div class="info col-lg-4 col-sm-4 pb-2">
+            <div class="info col-lg-4 col-sm-12 pb-2">
                 <!-- nyomtatás -->
                 <h3>Nyomtatás</h3>
                 <p class="text">

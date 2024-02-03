@@ -10,7 +10,7 @@ video {
 
 header
 {
-    background-color: #001F54;
+    background-color: #0A1128;
     position: fixed;
     z-index: 1;
 }
@@ -31,7 +31,37 @@ article
 {
     width: 100%;
     height: auto;
-    position: sticky;
+
+}
+
+footer
+{
+    background-color: #0A1128;   
+    color: #ffffff;
+    /* position: absolute; */
+    bottom: 0;
+    max-height: 10%;
+    width: 100%;
+}
+footer span
+{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:underline;
+
+}
+footer a
+{
+    color: #ffffff;
+}
+footer a:hover
+{
+    color: #034078;
+}
+
+i
+{
+    vertical-align: text-bottom;
 }
 
 .center
@@ -45,7 +75,7 @@ article
 {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 30px;
     z-index: 99;
 }
