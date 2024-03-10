@@ -20,32 +20,34 @@
 
 <body class="body">
     <video src="kepek/main/hatter.mp4" playsinline autoplay muted loop></video>
-    <header class="container-fluid">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="center col-sm-3 col-md-3 col-lg-3">
-                    <a href="?p=info/info">
-                        <h3>Főoldal</h3>
-                    </a>
-                </div>
-                <div class="center col-sm-3 col-md-3 col-lg-3">
-                    <a href="?p=alkat_alap/alkat_alap">
-                        <h3>Alkatrészek és Alapanyagok</h3>
-                    </a>
-                </div>
-                <div class="center col-sm-3 col-md-3 col-lg-3">
-                    <a href="">
-                        <h3>Nyomtatott tárgyak</h3>
-                    </a>
-                </div>
-                <div class="center col-sm-3 col-md-3 col-lg-3">
-                    <a href="">
-                        <h3>Gyakran felmerülő kérdések</h3>
-                    </a>
+    <div class="pb-5">
+        <header class="container-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="center col-sm-3 col-md-3 col-lg-3">
+                        <a href="?p=info/info">
+                            <h3>Főoldal</h3>
+                        </a>
+                    </div>
+                    <div class="center col-sm-3 col-md-3 col-lg-3">
+                        <a href="?p=alap/alap">
+                            <h3>Alapanyagok</h3>
+                        </a>
+                    </div>
+                    <div class="center col-sm-3 col-md-3 col-lg-3">
+                        <a href="">
+                            <h3>Nyomtatott tárgyak</h3>
+                        </a>
+                    </div>
+                    <div class="center col-sm-3 col-md-3 col-lg-3">
+                        <a href="">
+                            <h3>Gyakori kérdések</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
     <main class="pt-5 pb-5">
         <div class="container-fluid">
             <div class="row">

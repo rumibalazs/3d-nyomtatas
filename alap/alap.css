@@ -1,0 +1,49 @@
+label
+{
+    font-weight: bold;
+}
+
+.content
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border: 3px solid #034078;
+}
+
+.content-w
+{
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+    border: 3px solid #034078;
+}
+
+.shop
+{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button
+{
+    position: relative;
+    left: 65%;
+    background-color: #eeeeee;
+    border: 3 #034078 solid;
+    border-radius: 10px;
+    color: #034078;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.button:hover
+{
+    background-color: #034078;
+    border: 3 #eeeeee solid;
+    color: #eeeeee;
+    transition-duration: 0.5s;
+}
+
+
+
+/* teszt*/
+

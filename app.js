@@ -29,3 +29,18 @@ morebtns.forEach((morebtn, index) => {
         morebtn.innerText = newText;
     });
 });
+
+var db = document.getElementById("db");
+
+var invalidChars = [
+  "-",
+  "+",
+  "e",
+  "E",
+];
+
+db.addEventListener("keydown", function(e) {
+  if (invalidChars.includes(e.key)) {
+    e.preventDefault();
+  }
+});
