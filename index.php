@@ -36,7 +36,7 @@
                     </div>
                     <div class="center col-sm-3 col-md-3 col-lg-3">
                         <a href="">
-                            <h3>Nyomtatott tárgyak</h3>
+                            <h3>Galéria</h3>
                         </a>
                     </div>
                     <div class="center col-sm-3 col-md-3 col-lg-3">

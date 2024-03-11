@@ -25,35 +25,8 @@
                                             Darabszám:
                                         </label>
                                         <div class="col-8">
-                                            <input class="form-control" type="number" min="1" max="10" name="" id="db">
-                                        </div>
-                                    </div>
-                                    <button class="button"><i class="material-icons">&#xe854;</i>Kosárba</button>
-                                    </p>
-                                    <h5>Leírás:</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam animi,
-                                        praesentium iusto ab accusamus architecto totam magnam, quas deserunt debitis,
-                                        mollitia aspernatur beatae.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="pr-2 col-sm-6 col-md-3 col-lg-3">
-                            <div class="content-w">
-                                <div class="text-center">
-                                    <img class="shop" src="kepek/alap/filament.jpg" alt="">
-                                    <h3>Filament-1</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                    <div class="pb-2 form-group row">
-                                        <label class="col-4 col-form-label" for="">
-                                            Darabszám:
-                                        </label>
-                                        <div class="col-8">
-                                            <input class="form-control" type="number" min="1" max="10" name="" id="db">
+                                            <input class="form-control db" type="number" min="1" max="10" name=""
+                                                id="db">
                                         </div>
                                     </div>
                                     <button class="button"><i class="material-icons">&#xe854;</i>Kosárba</button>
@@ -81,7 +54,8 @@
                                             Darabszám:
                                         </label>
                                         <div class="col-8">
-                                            <input class="form-control" type="number" min="1" max="10" name="" id="db">
+                                            <input class="form-control db" type="number" min="1" max="10" name=""
+                                                id="db">
                                         </div>
                                     </div>
                                     <button class="button"><i class="material-icons">&#xe854;</i>Kosárba</button>
@@ -109,7 +83,37 @@
                                             Darabszám:
                                         </label>
                                         <div class="col-8">
-                                            <input class="form-control" type="number" min="1" max="10" name="" id="db">
+                                            <input class="form-control db" type="number" min="1" max="10" name=""
+                                                id="db">
+                                        </div>
+                                    </div>
+                                    <button class="button"><i class="material-icons">&#xe854;</i>Kosárba</button>
+                                    </p>
+                                    <h5>Leírás:</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam animi,
+                                        praesentium iusto ab accusamus architecto totam magnam, quas deserunt debitis,
+                                        mollitia aspernatur beatae.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pr-2 col-sm-6 col-md-3 col-lg-3">
+                            <div class="content-w">
+                                <div class="text-center">
+                                    <img class="shop" src="kepek/alap/filament.jpg" alt="">
+                                    <h3>Filament-1</h3>
+                                </div>
+                                <div>
+                                    <p>
+                                    <div class="pb-2 form-group row">
+                                        <label class="col-4 col-form-label" for="">
+                                            Darabszám:
+                                        </label>
+                                        <div class="col-8">
+                                            <input class="form-control db" type="number" min="1" max="10" name=""
+                                                id="db">
                                         </div>
                                     </div>
                                     <button class="button"><i class="material-icons">&#xe854;</i>Kosárba</button>
@@ -126,11 +130,18 @@
                     </div>
                 </div>
                 <div class="col-sm-0 col-md-4 col-lg-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis provident numquam eius nihil,
-                    maxime
-                    dolores, architecto, est accusamus velit hic minima! Iste adipisci porro veniam corrupti fugiat.
-                    Magnam,
-                    error quis.
+                    <div class="content-w min">
+                        <h4>Kereső:</h4>
+                        <div class="input-group">
+                            <input class="form-control bold" placeholder="Search" type="text" name="" id="">
+                            <div class="input-group-append">
+                                <button class="input-group-text search"><i class="material-icons">&#xe8b6;</i></button>
+                            </div>
+                        </div>
+                        <h5>Találatok:</h5>
+                        <p>
+                        </p>
+                    </div>
                 </div>
             </div>
     </form>

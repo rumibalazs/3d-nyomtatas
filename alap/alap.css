@@ -43,7 +43,24 @@ label
     transition-duration: 0.5s;
 }
 
+.search
+{
+    background-color: #034078;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 
 
 /* teszt*/
 
+.min
+{
+    min-height: 100%;
+}
+
+.bold
+{
+    font-weight: bold;
+}

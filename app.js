@@ -23,24 +23,30 @@ const morebtns = document.querySelectorAll('.more');
 const texts = document.querySelectorAll('.text');
 
 morebtns.forEach((morebtn, index) => {
-    morebtn.addEventListener('click', (e)=>{
+    morebtn.addEventListener('click', (e) => {
         texts[index].classList.toggle('showMore');
         const newText = texts[index].classList.contains('showMore') ? 'Kevesebb...' : 'Tovább...';
         morebtn.innerText = newText;
     });
 });
 
-var db = document.getElementById("db");
-
 var invalidChars = [
-  "-",
-  "+",
-  "e",
-  "E",
+    "-",
+    "+",
+    "e",
+    "E",
 ];
 
-db.addEventListener("keydown", function(e) {
-  if (invalidChars.includes(e.key)) {
-    e.preventDefault();
-  }
+var elements = document.querySelectorAll('.db');
+
+elements.forEach(function (element) {
+    element.addEventListener("input", function () {
+        this.value = this.value.replace(/[e\+\-]/gi, "")
+    });
+
+    element.addEventListener("keydown", function (e) {
+        if (invalidChars.includes(e.key)) {
+            e.preventDefault();
+        }
+    });
 });
